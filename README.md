@@ -11,8 +11,7 @@
 - A countdown timer counting down the time until Halloween. Written in Javascript.
 
 ### Screenshots
-![Screenshots](https://user-images.githubusercontent.com/93535054/192998564-ea157672-7b36-4a2b-ac57-671fb0e202d4.jpg)
-
+![Screenshots](https://user-images.githubusercontent.com/93535054/193001035-14d1d995-616b-46c1-9b91-93d5b747f3af.jpg)
 
 ***
 
