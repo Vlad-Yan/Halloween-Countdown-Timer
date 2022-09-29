@@ -1,0 +1,133 @@
+@import 'normalize.css';
+
+@font-face {
+    font-family: Halloween;
+    src: url("../fonts/OldHorrorFilms.ttf");
+}
+  
+body {
+    background-color: #fff;
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Halloween, sans-serif;
+    font-weight: normal;
+}
+
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
+
+.countdown-timer {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 4px 8px 8px rgba(7, 23, 114, 0.3);
+    border-radius: 20px;
+    max-width: 800px;
+    max-height: 350px;
+    padding: 20px 20px;
+
+}
+
+.countdown-timer__title {
+    font-size: 60px;
+    text-align: center;
+    color: #000;
+    margin: 0;
+    margin-bottom: 10px;
+
+}
+
+.countdown-timer__data {
+    display: flex;
+    justify-content: center;
+}
+
+.countdown-timer__item {
+    text-align: center;
+    min-width: 131px;
+}
+
+.countdown-timer__value {
+    
+    font-size: 90px;
+    color: rgb(26, 4, 106);
+}
+
+.countdown-timer__text {
+    font-size: 34px;
+    color: #000;
+}
+
+.countdown-timer__separator {
+    font-size: 50px;
+    color: rgb(26, 4, 106);
+    margin: 0 2px;
+    line-height: 90px;
+}
+
+@media (max-width: 700px) {
+    .countdown-timer__title {
+        font-size: 46px;
+    }
+    .countdown-timer__item {
+        min-width: 108px;
+    }
+    .countdown-timer__value {    
+        font-size: 60px;
+    }
+    .countdown-timer__text {
+        font-size: 28px;
+    }
+
+    .countdown-timer__separator {
+        font-size: 40px;
+
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 570px) {
+    .countdown-timer__title {
+        font-size: 32px;
+    }
+    .countdown-timer__item {
+        min-width: 77px;
+    }
+    .countdown-timer__value {    
+        font-size: 46px;
+    }
+    .countdown-timer__text {
+        font-size: 20px;
+    }
+    .countdown-timer__separator {
+        font-size: 40px;
+        line-height: 45px;
+    }
+}
+
+@media (max-width: 400px) {
+    .countdown-timer__title {
+        font-size: 26px;
+    }
+    .countdown-timer__item {
+        min-width: 62px;
+    }
+    .countdown-timer__value {    
+        font-size: 30px;
+    }
+    .countdown-timer__text {
+        font-size: 16px;
+    }
+    .countdown-timer__separator {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
